@@ -11,8 +11,18 @@
 body{
     font-size: 100%;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-    
 }
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 .header{
     display:flex;
@@ -52,12 +62,15 @@ body{
 }
 
 .content{
-    border-top: solid 0.4px #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
     margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 36px;
 }
 
 .main-content{
     display: flex;
+    flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -127,6 +140,8 @@ body{
     font-weight: 400;
     font-size: 14px;
     color: #FFF2E7;
+    margin-bottom: 16px;
+    
 }
 
 .footer{
@@ -139,7 +154,6 @@ body{
     display: block;
     margin: 0 auto;
 }
-
 
 
 
